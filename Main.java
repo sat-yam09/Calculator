@@ -9,7 +9,7 @@ public class Main {
         System.out.print("Enter the first value: ");
         first = sc.nextDouble();
         System.out.println("Choose Operators: *,/,+,- ");
-        Operators = sc.next();
+        Operators = sc.next().trim();
         System.out.print("Enter the second value: ");
         second = sc.nextDouble();
         switch (Operators){
